@@ -1,0 +1,101 @@
+
+#gameBoard {
+	position:fixed;
+	/* top: 50%; */
+    left: 330px;
+	width: 540px;
+	height: 540px;
+	/* float: left; */
+	border: 4px double #1D6609;
+    background:#000000;
+	
+}
+
+#score{
+	width:300px;
+	height: 540px;
+	border: 4px double black;
+	background:#FFFFFF;
+}
+
+.silver{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	background: grey;
+}
+
+.gold{
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	background: yellow;
+}
+
+.diamond{
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	background: blue;
+}
+
+.platinum{
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	background: orange;
+}
+
+.startGame{	
+	position: fixed;
+	margin-top : 5px;
+	margin-left : 5px;
+	margin-bottom : 5px;
+	width: 290px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	background: yellow;
+	color: black;
+	font-weight:  bold;
+	font-size: 18px;
+	text-align: center;
+	
+}
+
+.gameInProgress{
+	
+}
+
+table#collection tr td{
+	width:25%;
+	text-align:center;
+	font-weight:bold;
+}
+
+.silverDisp{
+	height: 20px;
+	width: 20px;
+	position: relative;
+	background: grey;
+}
+
+.goldDisp{
+	height: 15px;
+	width: 15px;
+	position: relative;
+	background: yellow;
+}
+
+.diamondDisp{
+	height: 10px;
+	width: 10px;
+	position: relative;
+	background: blue;
+}
+
+.platinumDisp{
+	height: 10px;
+	width: 10px;
+	position: relative;
+	background: orange;
+}

@@ -1,0 +1,97 @@
+<html> 
+    <head>
+     
+        <link rel="stylesheet" href="css/jewelleryCollector.css" /> 
+		
+        <script src='js/jewelleryCollector.js'></script> 
+        <title>Jewellery Collector</title> 
+    </head> 
+    <body bgcolor="#CCFFFF" onload="onDocumentLoad();"> 
+    	<h2>Jewellery Collector</h2>
+    	
+    	<div class="main">
+    		<div id="gameBoard">
+    		
+    		</div>
+    		
+    		<div id="score">
+    		<a href="#" class="startGame" id="startGameBtn">Click Here To Start Game</a><br/><br/>
+	    		<table id="collection" style="background: cyan;" width="100%">
+	    			<tr>
+	    				<th>Silver</th>
+	    				<th>Gold</th>
+	    				<th>Diamond</th>
+	    				<th>Platinum</th>	    			
+	    			</tr>
+	    			<tr>
+	    				<td id="silverCount">0</td>
+	    				<td id="goldCount">0</td>
+	    				<td id="diamondCount">0</td>
+	    				<td id="platinumCount">0</td>
+	    			</tr>
+	    			<tr>
+	    				<td colspan="4"> </td>
+	    			</tr>
+	    			<tr>
+	    				<td colspan="4"> </td>
+	    			</tr>
+	    			<tr >
+	    				<td colspan="2" style="text-align:left;">Highest Score</td>
+	    				<td colspan="2" id="highestScore" style="text-align:left;">: 0</td>
+	    			</tr>
+	    			<tr >
+	    				<td colspan="2" style="text-align:left;">Your Score</td>
+	    				<td colspan="2" id="currentScore" style="text-align:left;">: 0</td>
+	    			</tr>
+	    			
+	    		</table>
+	    		
+	    		<div style="margin-top:15px;padding-left:5px;background: #E0E0E0;" >
+	    			<b>Instructions</b>
+	    			<table>
+	    				<tr >
+	    					<td width=:70%>
+	    						<li>Catch Silver to earn 1 point</li>
+	    					</td>
+	    					<td width=:30%>
+	    						<div class="silverDisp"></div>
+	    					</td>
+	    				</tr>
+	    				<tr >
+	    					<td width=:70% valign="top">
+	    						<li>Catch Gold to earn 2 points</li>
+	    					</td>
+	    					<td width=:30%>
+	    						<div class="goldDisp"></div>
+	    					</td>
+	    				</tr>
+	    				<tr >
+	    					<td width=:70% valign="top">
+	    						<li>Catch Diamond to earn 3 points</li>
+	    					</td>
+	    					<td width=:30%>
+	    						<div class="diamondDisp"></div>
+	    					</td>
+	    				</tr>
+	    				<tr >
+	    					<td width=:70% valign="top">
+	    						<li>Catch Platinum to earn 3 points</li>
+	    					</td>
+	    					<td width=:30%>
+	    						<div class="platinumDisp"></div>
+	    					</td>
+	    				</tr>
+	    				<tr >
+	    					<td colspan="2">
+	    						<li>Catch minimum 3 Platinum before timeout to earn 30 sec bonus time</li>
+	    					</td>
+	    					
+	    				</tr>
+	    			</table>
+	    		</div>
+    		</div>
+    	
+    	</div>
+    	
+    </body>
+</html>
